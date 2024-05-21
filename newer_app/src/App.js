@@ -1,4 +1,5 @@
 import Map from './comps/Map';
+import "leaflet/dist/leaflet.css";
 
 function App() {
   return (
