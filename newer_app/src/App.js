@@ -1,10 +1,10 @@
-import Map from './comps/Map';
 import "leaflet/dist/leaflet.css";
+import Coso from './comps/XMLJSON';
 
 function App() {
   return (
     <div className="App">
-      <Map />
+      <Coso />
     </div>
   );
 }

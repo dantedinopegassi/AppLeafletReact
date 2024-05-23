@@ -1,0 +1,64 @@
+{
+  "basemap": [
+    {
+      "titulo": "Argenmap",
+      "nombre": "argenmap",
+      "servicio": "tms",
+      "version": "1.0.0",
+      "attribution": "<a href='https://www.ign.gob.ar/'>Instituto Geográfico Nacional</a>",
+      "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png",
+      "legendImg": "src/styles/images/argenmap.png"
+    },
+    {
+      "titulo": "Argenmap gris",
+      "nombre": "argenmap_gris",
+      "servicio": "tms",
+      "version": "1.0.0",
+      "attribution": "<a href='https://www.ign.gob.ar/'>Instituto Geográfico Nacional</a>",
+      "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/{z}/{x}/{-y}.png",
+      "legendImg": "src/styles/images/argenmap-gris.png"
+    },
+    {
+      "titulo": "Openstreetmap",
+      "nombre": "openstreetmap",
+      "servicio": "tms",
+      "version": "1.0.0",
+      "attribution": "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+      "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "legendImg": "src/styles/images/osm.png"
+    },
+    {
+      "titulo": "Imágenes satelitales Esri",
+      "nombre": "esri_imagery",
+      "servicio": "tms",
+      "version": "1.0.0",
+      "attribution": "Imágenes satelitales © Esri",
+      "url": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "legendImg": "src/styles/images/esri.png"
+    },
+    {
+      "titulo": "Imágenes satelitales Here",
+      "nombre": "here_imagery",
+      "servicio": "tms",
+      "version": "1.0.0",
+      "attribution": "Imágenes satelitales © here",
+      "url": "https://2.aerial.maps.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8?app_id=XiMlA4JwMurUFFYUWYe3&app_code=oTsmqovbl2YudG3E0UlxDA",
+      "legendImg": "src/styles/images/here.png"
+    },
+    {
+      "titulo": "Imágenes satelitales Bing",
+      "nombre": "bing_imagery",
+      "servicio": "bing",
+      "version": "1.0.0",
+      "attribution": "Imágenes satelitales © Bing",
+      "key": "AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L",
+      "legendImg": "src/styles/images/bing.png"
+    }
+  ],
+  "layers": {
+    "url": "https://wms.ign.gob.ar/geoserver/ows",
+    "service": "wms",
+    "version": "1.3.0",
+    "attribution": "&copy; IGN"
+  }
+}
