@@ -1,10 +1,10 @@
 import "leaflet/dist/leaflet.css";
-import Coso from './comps/XMLJSON';
+import ParseXml from './comps/ParseXml';
 
 function App() {
   return (
     <div className="App">
-      <Coso />
+      <ParseXml />
     </div>
   );
 }
